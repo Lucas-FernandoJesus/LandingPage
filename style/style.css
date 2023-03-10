@@ -12,6 +12,7 @@
     --fonte-secundaria:'Sarala', sans-serif;
     --cor-principal: rgb(65, 126, 121);
     --cor-secundaria: #ECD6C4;
+    --cor-terciaria: white;
     --cor-botao:  rgb(20, 122, 88);;
     --cor-fonte: #FFF2E7;
 }
@@ -91,7 +92,9 @@ body{
 }
 
 .conteudo__principal__escrito__botao:hover{
-    background-color: #000000;
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
 }
 
 .conteudo__principal__imagem{
@@ -127,6 +130,7 @@ body{
     padding: 2rem;
     border-top: 0.4px solid var(--cor-fonte);
 }
+
 
 .rodape__imagem{
     height: 3rem;
